@@ -5,7 +5,7 @@
 	overflow: hidden;
 	margin: 0px auto;
 }
-#topbanner{
+.banner{
 	background-color: #dedede;
 	width: 1000px;
 }
@@ -13,7 +13,7 @@ h1{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	display: inline-block;
 	text-align: left;
-	padding-left: 20px;
+	padding-left: 25px;
 }
 h3{
 	font-family: Arial, Helvetica, sans-serif;
@@ -24,11 +24,10 @@ p{
 a{
 	font-family: Arial, Helvetica, sans-serif;	
 }
-#master{
+.master{
 	display: inline;
-	float: right;
 	margin-right: 30px;
-
+	padding-left: 380px;
 }
 .label{
 	color: white;
@@ -43,8 +42,8 @@ a{
 	margin-top: 20px;
 }
 #me_photo {
-	height: 281px;
-	width: 428px;
+	height: 275px;
+	width: 423px;
 	background-color: gray;
 	padding: 10px;
 	border: 20px;
@@ -61,10 +60,11 @@ a{
 .box{
 	background: linear-gradient(to right, white, #ceb1be);
 	width: 303px;
-	height: 500px;
+	height: 600px;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 20px;
+	margin-bottom: 20px;
 }
 .info_image{
 	max-width: 100%;
@@ -72,15 +72,52 @@ a{
 }
 .info_text{
 	margin: 10px;
+	height: 145px;
 	text-align: justify;
 	font-size: 14px;
 }
-
-
-
-
-
-
+.icons{
+	padding: 10px;
+}
+.icons img{
+	height: 45px;
+	width: 45px;
+	margin: 4px;
+}
+.button{
+	background-color: green;
+	display: inline;
+	padding: 6px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 6px;
+	box-shadow: 0 0 0 1px black, 4px 4px 5px gray;
+}
+.la_mode_button{
+	margin-left: 120px;
+}
+.family_button{
+	margin-left: 95px;	
+}
+.fiveEleven_button{
+	margin-left: 110px;
+}
+.contact_info {
+	text-align: center;
+	padding-top: 10px;
+}
+.social_media {
+	text-align: center;
+	padding-bottom: 10px;
+}
+.social_media p{
+	display: inline;
+}
+.social_media img{
+	height: 15px;
+	width: 15px;
+}
 
 
 
