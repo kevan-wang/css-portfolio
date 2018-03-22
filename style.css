@@ -68,7 +68,6 @@ a{
 }
 .info_image{
 	max-width: 100%;
-	max-height: 100%;
 }
 .info_text{
 	margin: 10px;
@@ -84,24 +83,20 @@ a{
 	width: 45px;
 	margin: 4px;
 }
-.button{
+button{
+	border: none;
 	background-color: green;
-	display: inline;
 	padding: 6px;
 	color: white;
 	font-size: 14px;
 	font-weight: bold;
+	border: 1px solid black;
 	border-radius: 6px;
-	box-shadow: 0 0 0 1px black, 4px 4px 5px gray;
-}
-.la_mode_button{
-	margin-left: 120px;
-}
-.family_button{
-	margin-left: 95px;	
-}
-.fiveEleven_button{
-	margin-left: 110px;
+	box-shadow: 4px 4px 5px gray;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .contact_info {
 	text-align: center;
